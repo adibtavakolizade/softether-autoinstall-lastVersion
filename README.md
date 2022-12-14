@@ -23,8 +23,7 @@ To get started, all you have to do is copy/paste the provided code for your OS. 
 ## Supported Operating Systems (64-bit only)
 #### Ubuntu 16.04 LTS +
 ```bash
-wget -O se-install https://raw.githubusercontent.com/adibtavakolizade/softether-autoinstall-lastVersion/master/ubuntu/se-install-ubuntu.bash && ./se-install
-```
+wget -O se-install https://raw.githubusercontent.com/adibtavakolizade/softether-autoinstall-lastVersion/master/ubuntu/se-install-ubuntu.bash && chmod +x se-install && ./se-install```
 
 #### CentOS 7 (Currently depreciated, no longer in development)
 ```bash
@@ -46,7 +45,7 @@ By default, the IP addresses handed out by dnsmasq will be 10.42.10.10 - 10.42.1
 ### Installation (Ubuntu)
 There's two methods of doing this. If you've already set up the SoftEther VPN Server, use the script below.
 ``` bash
-wget -O se-install https://raw.githubusercontent.com/icoexist/softether-autoinstall/master/ubuntu/se-install-ubuntu.bash && chmod +x se-install && ./se-install
+wget -O se-install https://raw.githubusercontent.com/adibtavakolizade/softether-autoinstall-lastVersion/master/ubuntu/se-install-ubuntu.bash && chmod +x se-install && ./se-install
 ```
 
 If you are just now installing SoftEther VPN Server, then select option 1 when asked "Are you going to use the bridge option on the VPN server?".
